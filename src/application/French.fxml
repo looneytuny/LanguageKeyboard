@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="550.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.frenchC">
+   <children>
+      <TextArea fx:id="text" layoutX="4.0" layoutY="44.0" prefHeight="127.0" prefWidth="710.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <MenuBar layoutX="7.0" layoutY="6.0" prefHeight="40.0" prefWidth="63.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#openAction" text="Open" />
+                  <MenuItem mnemonicParsing="false" onAction="#saveAsAction" text="Save As" />
+                  <MenuItem mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f00fa" height="377.0" layoutX="4.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="234.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#261fff" height="40.0" layoutX="70.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="162.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e41f1f" height="377.0" layoutX="480.0" layoutY="171.0" stroke="BLACK" strokeType="INSIDE" width="234.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="40.0" layoutX="478.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="234.0" />
+      <Button layoutX="163.0" layoutY="217.0" mnemonicParsing="false" onAction="#u3Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: blue;" text="ü" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="217.0" mnemonicParsing="false" onAction="#u2Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: blue;" text="û" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="4.0" layoutY="217.0" mnemonicParsing="false" onAction="#u1Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: blue;" text="ù" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="4.0" layoutY="283.0" mnemonicParsing="false" onAction="#yAction" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: blue;" text="ÿ" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="87.0" layoutY="283.0" mnemonicParsing="false" onAction="#euroAction" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: blue;" text="€" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="163.0" layoutY="283.0" mnemonicParsing="false" onAction="#a1Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: blue;" text="à" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="259.0" layoutY="217.0" mnemonicParsing="false" onAction="#a2Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: white;" text="â">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="319.0" layoutY="217.0" mnemonicParsing="false" onAction="#aeAction" prefHeight="77.0" prefWidth="79.0" style="-fx-background-color: white;" text="æ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="399.0" layoutY="217.0" mnemonicParsing="false" onAction="#cAction" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: white;" text="ç">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="259.0" layoutY="283.0" mnemonicParsing="false" onAction="#e1Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: white;" text="é">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="327.0" layoutY="283.0" mnemonicParsing="false" onAction="#e2Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: white;" text="è">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="398.0" layoutY="283.0" mnemonicParsing="false" onAction="#e3Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: white;" text="ê">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="499.0" layoutY="226.0" mnemonicParsing="false" onAction="#e4Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: red;" text="ë" textFill="#eeeeee">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="566.0" layoutY="226.0" mnemonicParsing="false" onAction="#i1Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: red;" text="ï" textFill="#eeeeee">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="623.0" layoutY="226.0" mnemonicParsing="false" onAction="#i2Action" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: red;" text="î" textFill="#eeeeee">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="511.0" layoutY="303.0" mnemonicParsing="false" onAction="#oAction" prefHeight="31.0" prefWidth="0.0" style="-fx-background-color: red;" text="ô" textFill="#eeeeee">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="581.0" layoutY="303.0" mnemonicParsing="false" onAction="#oeAction" prefHeight="77.0" prefWidth="91.0" style="-fx-background-color: red;" text="œ" textFill="#eeeeee">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

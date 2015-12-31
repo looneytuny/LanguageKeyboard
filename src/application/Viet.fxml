@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="550.0" prefWidth="720.0" style="-fx-background-color: yellow;">
+         <children>
+            <TextArea fx:id="text" layoutX="8.0" layoutY="39.0" prefHeight="130.0" prefWidth="709.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextArea>
+            <Button layoutX="182.0" layoutY="206.0" mnemonicParsing="false" onAction="#a1Action" style="-fx-background-color: red;" text="á" textFill="#e1ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="229.0" layoutY="206.0" mnemonicParsing="false" onAction="#a2Action" style="-fx-background-color: red;" text="à" textFill="#d4ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="276.0" layoutY="206.0" mnemonicParsing="false" onAction="#a3Action" style="-fx-background-color: red;" text="ả " textFill="#e5ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="330.0" layoutY="206.0" mnemonicParsing="false" onAction="#a4Action" style="-fx-background-color: red;" text="ã" textFill="#fbff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="377.0" layoutY="206.0" mnemonicParsing="false" onAction="#a5Action" style="-fx-background-color: red;" text="ạ" textFill="#f6ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="424.0" layoutY="206.0" mnemonicParsing="false" onAction="#a6Action" style="-fx-background-color: red;" text="â" textFill="#d4ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="471.0" layoutY="206.0" mnemonicParsing="false" onAction="#a7Action" style="-fx-background-color: red;" text="ă" textFill="#e3fc05">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="208.0" layoutY="287.0" mnemonicParsing="false" onAction="#o1Action" style="-fx-background-color: red;" text="ô" textFill="#f6ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="257.0" layoutY="287.0" mnemonicParsing="false" onAction="#o2Action" style="-fx-background-color: red;" text="ơ" textFill="#f2ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="306.0" layoutY="287.0" mnemonicParsing="false" onAction="#uAction" style="-fx-background-color: red;" text="ư" textFill="#fbff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="353.0" layoutY="287.0" mnemonicParsing="false" onAction="#e1Action" style="-fx-background-color: red;" text="ê" textFill="#e5ff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="400.0" layoutY="287.0" mnemonicParsing="false" onAction="#e2Action" style="-fx-background-color: red;" text="ế" textFill="#ddff00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Button layoutX="444.0" layoutY="287.0" mnemonicParsing="false" onAction="#e3Action" style="-fx-background-color: red;" text="ề " textFill="#e2ee00">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Button>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="54.0" layoutX="-3.0" layoutY="359.0" stroke="BLACK" strokeType="INSIDE" width="727.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="54.0" layoutX="498.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" width="226.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="54.0" layoutX="-2.0" layoutY="287.0" stroke="BLACK" strokeType="INSIDE" width="210.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="54.0" layoutX="518.0" layoutY="206.0" stroke="BLACK" strokeType="INSIDE" width="204.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="54.0" layoutY="206.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+            <MenuBar layoutX="8.0" layoutY="7.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#openAction" text="Open" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveAsAction" text="Save as" />
+                        <MenuItem mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
